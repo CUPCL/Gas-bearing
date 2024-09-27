@@ -31,7 +31,6 @@ df_b.to_excel('FilePath', index=False)
 '''Screening of non-air test results'''
 import os
 import time
-import pandas as pd
 from multiprocessing import Pool
 
 # Source folder path and destination folder path

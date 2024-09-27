@@ -2,7 +2,6 @@ import numpy as np
 import pandas as pd
 import lightgbm as lgb
 from sklearn.svm import SVC
-import matplotlib.pyplot as plt
 from xgboost import XGBClassifier
 from sklearn.metrics import log_loss, accuracy_score, classification_report
 from catboost import CatBoostClassifier
